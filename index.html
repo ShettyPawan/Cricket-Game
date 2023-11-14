@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cricket Gamble Game</title>
+  <link rel="stylesheet" href="crick.css">
+</head>
+<body>
+  <h1 id="heading">Try Your Luck </h1>
+  <p></p>
+  <div class="buttonContainer">
+    <button id="bat" class="button" onclick="buttonValue = 'Bat' ; resultStatus (buttonValue) ;"><img class="image" src="images/bat.jpeg" alt="batImage"></button>
+    <button id="ball" class="button" onclick="buttonValue = 'Ball' ;  resultStatus (buttonValue) ; "><img class="image" src="images/ball.jpeg" alt="ballImage"></button>
+    <button id="stump" class="button" onclick="buttonValue = 'Stump' ;  resultStatus (buttonValue) ; "><img class="image" src="images/stump.png" alt="stumpImage"></button>
+    
+  </div>
+  
+  
+  <hr>
+  <h1 id="result"> </h1> <hr>
+  <h1 id="comparator"></h1>
+  <hr>
+  <button id="reset" class="button" onclick="resetStorage();">Reset</button>
+  <script src="crick.js"> 
+
+  </script>
+</body>
+</html>

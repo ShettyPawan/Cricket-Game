@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+
+}
+
+.button{
+  border: dotted 2px;
+  border-color: red;
+  border-radius: 50px;
+  height: 110px;
+  width: 110px;
+  margin: 5px;
+}
+
+.image{
+  height: 70px;
+}
